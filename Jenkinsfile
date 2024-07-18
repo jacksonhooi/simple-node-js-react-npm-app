@@ -1,8 +1,5 @@
 pipeline {
     agent any
-      environment {
-        PORT = 3001  // Change the port number
-    }
     stages {
         stage('Build') {
             steps {
