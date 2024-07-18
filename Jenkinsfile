@@ -8,3 +8,4 @@ pipeline {
               sh 'npm install'
           }
       }
+}
