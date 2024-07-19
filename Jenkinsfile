@@ -11,11 +11,7 @@ pipeline {
                 sh './jenkins/scripts/test.sh'
             }
         }
-      stage('Checkout SCM') {
-			steps {
-				git '/home/JenkinsDependencyCheckTest'
-			}
-		}
+     
 
 		stage('OWASP DependencyCheck') {
 			steps {
